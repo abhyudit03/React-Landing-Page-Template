@@ -469,6 +469,7 @@ background: linear-gradient(to right, #48494a 0%, #5ca9fb 100%);
 }
 /* Contact Section */
 #contact {
+  margin-top: 2px;
   padding: 100px 0 60px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
