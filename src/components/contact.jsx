@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
 
@@ -9,24 +9,28 @@ const initialState = {
   companyName: ""
 };
 export const Contact = (props) => {
-  const [{ name, email, phoneNo, companyName }, setState] = useState(initialState);
+  const [formValues, setFormValues] = useState(initialState);
+  const [clearForm, setClearForm] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
+    setFormValues((prevValues) => ({ ...prevValues, [name]: value }));
   };
-  const clearState = () => setState({ ...initialState });
-  
-  
+
+  const clearState = () => {
+    setFormValues(initialState);
+    setClearForm(true);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, phoneNo, companyName);
+    console.log(formValues.name, formValues.email, formValues.phoneNo, formValues.companyName);
+
     
     emailjs
-      .sendForm("service_jm6ycqc", "template_b84g31s", e.target, "_HKYD-Aok7Yj9Bmbi")
+      .sendForm("service_auyxb0a", "template_jdo5fwn", e.target, "oJK6Hc_Tj63AgXr8s")
       .then(
         (result) => {
-          console.log(result.text);
           clearState();
         },
         (error) => {
@@ -34,6 +38,13 @@ export const Contact = (props) => {
         }
       );
   };
+
+  useEffect(() => {
+    if (clearForm) {
+      setClearForm(false);
+    }
+  }, [clearForm]);
+
   return (
     <div>
       <div id="contact">
@@ -59,6 +70,7 @@ export const Contact = (props) => {
                         placeholder="Name"
                         required
                         onChange={handleChange}
+                        value={formValues.name}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -73,6 +85,7 @@ export const Contact = (props) => {
                         placeholder="Email"
                         required
                         onChange={handleChange}
+                        value={formValues.email}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -87,6 +100,7 @@ export const Contact = (props) => {
                         placeholder="Company Name"
                         required
                         onChange={handleChange}
+                        value={formValues.companyName}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -102,13 +116,14 @@ export const Contact = (props) => {
                         placeholder="Phone No"
                         required
                         onChange={handleChange}
+                        value={formValues.phoneNo}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
                 </div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg" >
+                <button type="submit" className="btn btn-custom btn-lg">
                   Send Message
                 </button>
               </form>
@@ -141,15 +156,14 @@ export const Contact = (props) => {
               </p>
             </div>
           </div>
-        
         </div>
       </div>
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
+            &copy; 2024 LeadGen Finance All Rights Reserved. {" "}
+            <a href="/policy">
+              Privacy Policy
             </a>
           </p>
         </div>

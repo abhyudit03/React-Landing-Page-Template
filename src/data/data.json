@@ -65,34 +65,34 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-users",
+      "name": "Paid Media",
+      "text": "Enhance ROI with targeted paid media campaigns. Our data-driven strategy ensures ads reach the right audience on multiple platforms, maximizing potential client engagement."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-envelope",
+      "name": "Email Marketing",
+      "text": "Directly engage prospects with personalized email campaigns. Nurture leads and close deals through tailored content, keeping your audience engaged and action-ready."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-sitemap",
+      "name": "Lead Management System",
+      "text": "Streamline your lead handling process with our sophisticated lead management system. Organize, track, and nurture leads efficiently to boost conversions and sales productivity."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-certificate",
+      "name": "Sales Team Training",
+      "text": "Equip your sales team with the skills and insights needed to convert leads into loyal clients. Our comprehensive training programs are designed to enhance performance and drive revenue."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-file-text-o",
+      "name": "Landing Page Optimization",
+      "text": "Convert more visitors into leads with landing pages that are optimized for performance. Our team ensures your pages are compelling, user-friendly, and primed for conversion."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Organic Media",
+      "text": "Build lasting relationships and establish authority in the finance sector with our organic media strategies. From SEO to content marketing, we help you attract and engage clients naturally."
     }
   ],
   "Testimonials": [
@@ -150,9 +150,9 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "8826/3, Multani Dhanda, Paharganj, New Delhi, Delhi 110055",
+    "phone": "+91 8858225655",
+    "email": "Info@leadgenfinance.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
@@ -160,23 +160,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Tailored Lead Generation Strategies",
+      "text": "Customized solutions that target the unique needs of the finance sector, ensuring high-quality, relevant leads."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Advanced Lead Management System",
+      "text": "Streamline and optimize your lead handling process with our sophisticated system designed for maximum efficiency and conversion."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Sales Coordination and Feedback Integration",
+      "text": "We ensure direct and continuous collaboration with your sales team, integrating their valuable insights and feedback to refine and enhance lead generation strategies for improved outcomes."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Comprehensive Training Sessions for Sales Teams",
+      "text": "Equip your salesforce with the knowledge and skills they need to effectively convert leads into valuable clients, boosting performance and confidence."
     }
   ]
 }

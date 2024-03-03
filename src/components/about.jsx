@@ -6,8 +6,9 @@ export const About = (props) => {
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-6">
-            {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+            <video className="img-responsive" alt="" controls>
+            <source src="img/about.mp4" type="video/mp4"></source>
+            </video>
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
