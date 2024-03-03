@@ -1,21 +1,19 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Drive Real Growth with Leadgen Finance",
+    "paragraph": "Unlock the Full Potential of Every Lead with Our Expertise in the Finance Sector"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "LeadGen Finance was born out of the need to bridge the gap between a business's potential for success and its ability to generate and manage leads effectively in the finance sector. Founded by Shivam Srivastava and a team of experts, LeadGen Finance aims to transform lead generation and management for finance companies by understanding the industry's unique challenges and opportunities.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Client-Centric Approach",
+      "Regulatory Expertise",
+      "100% Money-Back Guarantee"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Dedicated Support",
+      "Efficient Lead Management System",
+      "Customizable Packages"
     ]
   },
   "Gallery": [

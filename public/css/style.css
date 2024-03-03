@@ -205,7 +205,7 @@ a:focus,
 }
 /* Header Section */
 .intro {
-  display: table;
+  display: block;
   width: 100%;
   padding: 0;
   background: url(../img/intro-bg.jpg) center center no-repeat;
@@ -243,6 +243,15 @@ header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
   text-align: center;
+}
+header .form-style {
+  padding-top: 433px;
+  text-align: center;
+  
+}
+header .form-bg {
+background: linear-gradient(to right, #48494a 0%, #5ca9fb 100%);
+  
 }
 /* Features Section */
 #features {
@@ -286,6 +295,7 @@ header .intro-text {
   margin-bottom: 6px;
   margin-left: 6px;
   list-style: none;
+  width: 251px;
   padding: 0;
 }
 #about .about-text li:before {
@@ -604,3 +614,4 @@ label {
     margin: 50px 0;
   }
 }
+
