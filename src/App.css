@@ -1,7 +1,12 @@
 @media screen and (max-width: 400px) {
   #features {
     padding: 20px;
-    width: 111%;
+    width: 100%;
+  }
+  #menu {
+    padding-top: 5px;
+    padding: 0px;
+    transition: all 0.8s;
   }
   #about,
   #services,
@@ -9,7 +14,7 @@
   #team,
   #contact,
   #footer {
-    width: 111%;
+    width: 100%;
   }
 
   #portfolio {

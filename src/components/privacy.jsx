@@ -2,7 +2,7 @@ import React from 'react';
 
 const PrivacyPolicy = () => {
 return (
-    <div>
+    <div style={{paddingLeft : '15px'}}>
       <h1>Privacy Policy</h1>
       <p>Last updated: March 03, 2024</p>
       <p>This Privacy Policy describes Our policies and procedures on the collection, use, and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
@@ -14,7 +14,7 @@ return (
       <p>For the purposes of this Privacy Policy:</p>
       <ul>
         <li>Account means a unique account created for You to access our Service or parts of our Service.</li>
-        <li>Company (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Super CA Consultancy , 2/22 Old Rajinder Nagar.</li>
+        <li>Company (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to LeadGen Finance</li>
         <li>Cookies are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.</li>
         <li>Country refers to: Delhi, India</li>
         <li>Device means any device that can access the Service such as a computer, a cellphone or a digital tablet.</li>

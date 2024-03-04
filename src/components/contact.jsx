@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import emailjs from "emailjs-com";
-import React from "react";
+import { Link } from 'react-router-dom';
 
 const initialState = {
   name: "",
@@ -8,6 +8,7 @@ const initialState = {
   phoneNo: "",
   companyName: ""
 };
+
 export const Contact = (props) => {
   const [formValues, setFormValues] = useState(initialState);
   const [clearForm, setClearForm] = useState(false);
@@ -26,7 +27,6 @@ export const Contact = (props) => {
     e.preventDefault();
     console.log(formValues.name, formValues.email, formValues.phoneNo, formValues.companyName);
 
-    
     emailjs
       .sendForm("service_auyxb0a", "template_jdo5fwn", e.target, "oJK6Hc_Tj63AgXr8s")
       .then(
@@ -124,7 +124,7 @@ export const Contact = (props) => {
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                  Book Free Consultation Call Now
                 </button>
               </form>
             </div>
@@ -162,9 +162,7 @@ export const Contact = (props) => {
         <div className="container text-center">
           <p>
             &copy; 2024 LeadGen Finance All Rights Reserved. {" "}
-            <a href="/policy">
-              Privacy Policy
-            </a>
+            <Link to="/policy">Privacy Policy</Link>
           </p>
         </div>
       </div>

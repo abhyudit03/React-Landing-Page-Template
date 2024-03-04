@@ -171,7 +171,7 @@ hr {
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   border-radius: 25px;
   transition: all 0.5s linear;
@@ -204,21 +204,48 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
+@media only screen and (min-width: 600px) {
 .intro {
   display: block;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/intro-bg-1.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
+}
+@media only screen and (max-width: 600px) {
+  .intro {
+    display: block;
+    width: 100%;
+    padding: 0;
+    background: url(../img/intro-bg-1.jpg) center center no-repeat;
+    background-color: #e5e5e5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+}
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
-.intro h1 {
+@media only screen and (max-width: 600px) {
+  .intro h1 {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 600px) {
+   .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
   font-size: 82px;
@@ -226,6 +253,7 @@ a:focus,
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+}
 }
 .intro h1 span {
   font-weight: 800;
@@ -236,11 +264,11 @@ a:focus,
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
-  margin: 0 auto;
-  margin-bottom: 60px;
+  margin: 29px auto;
+  margin-bottom: 22px;
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 190px;
   padding-bottom: 200px;
   text-align: center;
 }
@@ -281,6 +309,7 @@ background: linear-gradient(to right, #48494a 0%, #5ca9fb 100%);
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
+  padding-top: 20px;
 }
 #about h2::after {
   position: absolute;
@@ -475,6 +504,7 @@ background: linear-gradient(to right, #48494a 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
+  margin-top: 29px;
   margin-bottom: 40px;
 }
 #contact .section-title p {
@@ -510,9 +540,9 @@ background: linear-gradient(to right, #48494a 0%, #5ca9fb 100%);
   text-align: left;
 }
 #contact .btn-custom {
-  margin: 30px 0;
+  margin: 30px -4px;
   background: transparent;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
 }
 #contact .btn-custom:hover {
   color: #1f386e;
